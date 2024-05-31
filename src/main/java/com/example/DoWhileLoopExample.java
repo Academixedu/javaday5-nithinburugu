@@ -6,6 +6,6 @@ public class DoWhileLoopExample {
         do {
             System.out.println("Number: " + i);
             i++;
-        } while (i < _____);
+        } while (i < 10);
     }
 }

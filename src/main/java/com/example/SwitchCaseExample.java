@@ -1,8 +1,9 @@
 package com.example;
+
 public class SwitchCaseExample {
     public static void main(String[] args) {
         int day = 3;
-        switch (_____) {
+        switch (day) {
             case 1:
                 System.out.println("Monday");
                 break;
@@ -12,7 +13,7 @@ public class SwitchCaseExample {
             case 3:
                 System.out.println("Wednesday");
                 break;
-            _____:
+            default:
                 System.out.println("Invalid day");
                 break;
         }
